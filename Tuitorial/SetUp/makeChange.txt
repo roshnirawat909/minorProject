@@ -1,0 +1,6 @@
+in package.json 
+after the main add this
+ "type":"module",
+"scripts": {
+    "start": " node server.js"
+  },

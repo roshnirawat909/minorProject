@@ -1,0 +1,31 @@
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(),tailwindcss()],
+})
+
+changed code
+
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+// https://vite.dev/config/
+export default defineConfig({
+  server: {
+
+    proxy: { 
+      "/api": "http//localhost:3000"   // jab bhi apke url  ya route me /api honga vo direct is localhost par open   
+                                          ho  jayenga  
+    }
+
+  },
+  plugins: [react(), tailwindcss()],
+})
+
+agar ham proxy de denge to hame bar bar  ye "http//localhost:3000"  likhna nahi padenga

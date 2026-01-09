@@ -1,0 +1,117 @@
+🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒
+🎈PS C:\Users\HP\OneDrive\Desktop\Tuitorial\backend> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (tuitorial)
+version: (1.0.0)
+description:
+entry point: (index.js) server.js                                                                                   
+test command:                                                                                                       
+git repository:                                                                                                     
+keywords:                                                                                                           
+author:                                                                                                             
+license: (ISC)
+About to write to C:\Users\HP\OneDrive\Desktop\Tuitorial\package.json:
+
+{
+  "name": "tuitorial",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+Is this OK? (yes) yes
+
+🎈PS C:\Users\HP\OneDrive\Desktop\Tuitorial\backend> npm i express
+
+added 65 packages, and audited 66 packages in 6s
+
+20 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+🎈PS C:\Users\HP\OneDrive\Desktop\Tuitorial\backend> npm run start
+
+> tuitorial@1.0.0 start
+> node server.js
+
+server at http://localhost :3000
+
+{to start the server}
+
+👉👉👉👉👉👉// es command ko tab run kiya jata hai jab hame bahut sare changes perform karene hote hai har ek change ek bad me server ko restart karna padta hai but is command ki help se hame bar bar server ko run nshi karna padta hai
+
+🎈PS C:\Users\HP\OneDrive\Desktop\Tuitorial\Backend> npm install -g nodemon
+
+changed 29 packages in 6s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒🍒
+🎈PS C:\Users\HP\OneDrive\Desktop\Tuitorial> cd frontend
+PS C:\Users\HP\OneDrive\Desktop\Tuitorial\frontend> npm create vite@latest .
+Need to install the following packages:
+create-vite@8.2.0
+Ok to proceed? (y)
+
+
+> npx
+> create-vite .
+
+│
+◇  Package name:
+│  frontend
+│
+◇  Select a framework:
+│  React
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Use rolldown-vite (Experimental)?:
+│  No
+│
+◇  Install with npm and start now?
+│  Yes
+│
+◇  Scaffolding project in C:\Users\HP\OneDrive\Desktop\Tuitorial\Frontend...
+│
+◇  Installing dependencies with npm...
+
+added 157 packages, and audited 158 packages in 1m
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+│
+◇  Starting dev server...
+
+> frontend@0.0.0 dev
+> vite
+
+
+  VITE v7.2.6  ready in 484 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+
+🎈🎈🎈
